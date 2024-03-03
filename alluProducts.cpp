@@ -624,7 +624,7 @@ bool Database::verifyManager(int managerId, const std::string &password) const
 int main() {
     
 
- std::string atlasConnectionString = "mongodb+srv://deekshitha:deekshi@cluster0.nc8vgqk.mongodb.net/";
+ std::string atlasConnectionString = "mongodb+srv://deekshitha:deekshi@cluster0.nc8vgqk.mongodb.net/<dbname>?retryWrites=true&w=majority";
  Database database(atlasConnectionString);
 
 Car car1(1, "Tesla", "bad", "Red");
