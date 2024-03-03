@@ -11,7 +11,7 @@ To run the code, you need to have the following tools installed:
 * A C++ compiler (such as g++)
 * CMake (minimum version 3.10)
 * MongoDB c++ Drivers (minimum version 4.0)
-
+  After installing all this tools we may proceed
 
 ### Building the code
 
@@ -23,7 +23,7 @@ To run the code, you need to have the following tools installed:
 
 ## Contributing
 
-[Insert guidelines for contributing to your project here.]
+[Insert guidelines for contributing to your project here]
 
 
 
